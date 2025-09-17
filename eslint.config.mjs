@@ -20,7 +20,11 @@ export default [
         'error',
         {
           enforceBuildableLibDependency: true,
-          allow: ['^.*/eslint(\\.base)?\\.config\\.[cm]?[jt]s$'],
+          allow: [
+            '^.*/eslint(\\.base)?\\.config\\.[cm]?[jt]s$',
+            '^.*vite-plugin.*$',
+            '^.*storybook.*$',
+          ],
           depConstraints: [
             {
               sourceTag: '*',

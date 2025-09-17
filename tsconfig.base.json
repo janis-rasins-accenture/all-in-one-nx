@@ -16,6 +16,10 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "es2022",
-    "customConditions": ["@all-in-one-nx/source"]
+    "baseUrl": ".",
+    "customConditions": ["@all-in-one-nx/source", "@all-in-one-nx/buttons-native"],
+    "paths": {
+      "@all-in-one-nx/buttons-native": ["libs/buttons-native/src/index.ts"]
+    }
   }
 }

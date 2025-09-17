@@ -1,0 +1,15 @@
+{
+  "name": "@all-in-one-nx/all-in-one-native",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@react-native/metro-config": "*",
+    "react": "*",
+    "react-native": "*",
+    "react-native-svg": "*",
+    "metro-config": "*",
+    "@all-in-one-nx/buttons-native": "^0.0.1",
+    "react-native-reanimated": "*",
+    "react-native-worklets": "*"
+  }
+}
